@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+* {
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: underline;
+  color: darkred;
+}
+h1{
+  font-size: 22px;
+}
+.box-1 {
+  border: 1px solid white;
+  width: auto;
+  height: auto;
+  background: rgba(217, 217, 217, 0.58);
+  border-radius: 7px;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: px;
+  font-family: 'Assistant', sans-serif;
+
+  transition: all 0.5s;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.box-1:hover {
+  border: 1px solid black;
+}
+
+.box-1:active {
+  transform: scale(0.95);
+}
+
+.box-2 {
+  border: 1px solid white;
+  width: auto;
+  height: auto;
+  background: rgba(217, 217, 217, 0.58);
+  border-radius: 17px;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: px;
+  margin-top: 10px;
+
+  transition: all 0.5s;
+  font-weight: bolder;
+  color: red;
+}
+
+.box-3 {
+  border: 1px solid white;
+  width: auto;
+  height: auto;
+  background: rgba(217, 217, 217, 0.58);
+  border-radius: 7px;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  transition: all 0.5s;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+.semester-2-2021 {
+  color: rgb(55, 23, 151);
+}
+
+.semester-2-2022 {
+  color: rgb(55, 23, 151);
+}
+
+.semester {
+  font-size: 20px;
+}
+
+.box-4 {
+  border: 1px solid white;
+  width: auto;
+  height: auto;
+  background: rgba(217, 217, 217, 0.58);
+  border-radius: 7px;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 20px;
+  transition: all 0.5s;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+.box-4:hover {
+  border: 1px solid black;
+}
+
+.box-4:active {
+  transform: scale(0.95);
+}
+
+.card {
+  margin-top: 100px;
+}
+
+.profile-image img {
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  margin-top: -75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition-duration: 0.4s;
+  transition-property: transform;
+}
+
+.profile-image img:hover {
+  transform: scale(1.1);
+}
+
+.card-content h3 {
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+}
+
+.card-content p {
+  font-size: 16px;
+  text-align: justify;
+  padding: 0 20px 5px 20px;
+  text-align: center;
+  margin: 2px;
+}
+
+.icons {
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+.icons a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #0ABDE3;
+  padding: 0 1px;
+  transition-duration: 0.4s;
+  transition-property: transform;
+}
+
+.icons a:hover {
+  color: #000;
+  transform: scale(1.5);
+}
+
+.button-container {
+  width: 90vw;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.yr-btn {
+  height: 50px;
+}
+
+button {
+  width: 90px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 200px;
+  margin: 10px;
+  transform: scale(1.1);
+  color: white;
+  font-size: 22px;
+  border-radius: 5px;
+  background: #183153;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
